@@ -2,9 +2,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # These are my Spotify app credentials, they let me access Spotify API through PyCharm
-CLIENT_ID = '1ce32acf28444df5a92f2845cd68c706'
-CLIENT_SECRET = '497c53774a1a43439581e01201d420eb'
-REDIRECT_URI = 'http://localhost:8888/callback'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
+REDIRECT_URI = ''
 
 # This line will authenticate my program with Spotify
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
